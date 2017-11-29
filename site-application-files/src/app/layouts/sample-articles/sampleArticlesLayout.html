@@ -1,0 +1,26 @@
+<!-- layout for "Sample Articles" type, to display a list of articles by category -->
+<h3 *ngIf="sampleArticlesPageHeader">{{ sampleArticlesPageHeader }}</h3>
+
+<div class="grid-container">
+
+  <!-- Search for content by queryString defined in sampleArticleLayouts.ts -->
+  <wch-contentquery [query]='queryString' #q>
+
+    <!-- Grid container foundation styles used by the Oslo SPA site -->
+    <div class="grid-x grid-margin-x">
+
+      <!-- Render the following for each of the rendering context results returned -->
+      <div class="medium-4 cell" *ngFor="let rc of q.onRenderingContexts | async">
+        <div class="summary-card">
+          <div class="summary-card-image image-container">
+            <!-- Leverage utility service to generate url to the image element with default rendition -->
+            <img [src]="utilsService.getImageUrl(rc, 'image', 'default')">
+          </div>
+          <!-- Render the article title from this item's rendering context -->
+          <p>{{rc.text["title"]}}</p>
+        </div>
+      </div>
+    </div>
+  </wch-contentquery>
+
+</div>

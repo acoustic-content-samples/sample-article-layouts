@@ -1,0 +1,25 @@
+{
+  "classification": "layout-mapping",
+  "id": "sample-article-layout-mapping",
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sample-article-layout"
+      },
+      "layouts": [
+        {
+          "id": "sample-article-layout"
+        },
+        {
+          "id": "sample-article-alternate-layout",
+          "name": "sampleArticleAlternateLayout"
+        }
+      ]
+    }
+  ],
+  "name": "sampleArticleLayoutMapping",
+  "rev": "2-250d39b70f47cc28aed18d24898ffa7d",
+  "type": {
+    "id": "24490027-e55b-4739-a5a9-5c091c5d4a72"
+  }
+}

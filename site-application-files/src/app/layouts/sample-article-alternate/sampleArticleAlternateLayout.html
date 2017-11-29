@@ -1,0 +1,18 @@
+<!-- Sample Article layout HTML template -->
+
+<!-- Optionally display the rendering context, to see the structure and values available
+{{renderingContext | json}}
+-->
+<div id="{{renderingContext.id}}alt" class="section sample-article-alternate-layout">
+    <div class="article-medium-image">
+        <img [src]="utilsService.getImageUrl(renderingContext, 'image', 'default')" width="480" height="360">
+        <h4 class="sample-article-alternate-title">
+            <!-- {{title}} shorter form of {{renderingContext.elements["title"].value}} -->
+            {{title}}
+        </h4>
+    </div>
+    <div class="article-body">
+        <!-- {{body}} is shorter form of {{renderingContext.elements["body"].value}} -->
+        <p>{{body}}</p>
+    </div>
+</div>

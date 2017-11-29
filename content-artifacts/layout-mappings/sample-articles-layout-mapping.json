@@ -1,0 +1,24 @@
+{
+  "classification": "layout-mapping",
+  "id": "sample-articles-layout-mapping",
+  "mappings": [
+    {
+      "defaultLayout": {
+        "id": "sample-articles-layout",
+        "name": "sampleArticlesLayout"
+      },
+      "layouts": [
+        {
+          "id": "sample-articles-layout",
+          "name": "sampleArticlesLayout"
+        }
+      ]
+    }
+  ],
+  "name": "sampleArticlesLayoutMapping",
+  "rev": "e5Ia5lNHpZxeoCHASbt1PQi6rgM8br5yfCtigNpx+fA=",
+  "type": {
+    "id": "9fbd5e16-d659-48f2-a76f-cf8262f78422",
+    "name": "Sample Articles"
+  }
+}

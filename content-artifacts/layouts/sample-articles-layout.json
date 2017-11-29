@@ -1,0 +1,12 @@
+{
+  "classification": "layout",
+  "id": "sample-articles-layout",
+  "name": "sampleArticlesLayout",
+  "prerender": false,
+  "rev": "DMhSf31dXqLT65OS1u8MJ1yeFA96iG6r7x1VKczr1Fk=",
+  "template": "sample-articles-layout",
+  "templateType": "angular",
+  "thumbnail": {
+    "path": "/layouts/thumbnails/sample-articles-layout.jpg"
+  }
+}

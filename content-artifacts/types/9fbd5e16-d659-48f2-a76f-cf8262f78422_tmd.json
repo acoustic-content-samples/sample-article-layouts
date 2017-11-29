@@ -1,0 +1,45 @@
+{
+  "id": "9fbd5e16-d659-48f2-a76f-cf8262f78422",
+  "rev": "13-8ba871b201bdc2b8285a3271b0da3ec1",
+  "name": "Sample Articles",
+  "classification": "content-type",
+  "kind": [
+    "standalone"
+  ],
+  "description": "",
+  "creatorId": "c4a34b1e-399c-47cc-a91f-0e051ba1c83d",
+  "created": "2017-11-06T16:07:05.671Z",
+  "lastModifierId": "c4a34b1e-399c-47cc-a91f-0e051ba1c83d",
+  "lastModified": "2017-11-07T23:27:37.384Z",
+  "status": "ready",
+  "tags": [
+    "sample",
+    "IBM sample"
+  ],
+  "elements": [
+    {
+      "elementType": "text",
+      "label": "Sample Articles Page Header",
+      "key": "sampleArticlesPageHeader"
+    },
+    {
+      "elementType": "category",
+      "label": "Sample Articles Category",
+      "key": "sampleArticlesCategory",
+      "restrictedParents": [
+        "59f05dd9116cf0ee47c23903bd563ea7"
+      ],
+      "helpText": "Select a single category of article, for the layout component to search for.  Only the first category selected is used by this sample layout component.",
+      "required": true
+    },
+    {
+      "elementType": "number",
+      "fieldType": "integer",
+      "label": "Maximum number of items",
+      "key": "maxItems",
+      "minimum": 1,
+      "maximum": 100,
+      "required": true
+    }
+  ]
+}
