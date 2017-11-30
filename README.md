@@ -12,10 +12,13 @@ This repository provides a simple example of how to create one or more WCH Site 
  - Node.js v6.11.1 or above:  https://developer.ibm.com/node/sdk/v6/
  - wchtools 2.1.x or later installed and configured for the user's tenant:  https://github.com/ibm-wch/wchtools-cli
  - Latest wch-site-application source project: https://github.com/ibm-wch/wch-site-application
+ - Push the Sample Article artifacts to your content hub tenant from and as described at:  https://github.com/ibm-wch/sample-article-content
+
+## Suggested reading
+
  - Read through the customizing the SPA documentation and try out the custom sample iframe layout first:  https://developer.ibm.com/customer-engagement/tutorials/customizing-layouts-components-for-your-site/
  - Read the Watson Content Hub Site Customization Programming Model documentation:  https://github.com/ibm-wch/wch-site-application/blob/master/doc/README-programming-model.md
  - Read and try the sample custom Site SPA layouts here: https://github.ibm.com/DX/sample-active-site-components
- - Push the Sample Article artifacts to your content hub tenant from and as described at:  https://github.com/ibm-wch/sample-article-content
 
 ## Scenario
 
