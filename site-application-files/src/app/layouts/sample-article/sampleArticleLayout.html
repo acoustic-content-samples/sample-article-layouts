@@ -4,13 +4,11 @@
 {{renderingContext | json}}
 -->
 <div id="{{renderingContext.id}}" class="section sample-article">
-    <h4>
-        <!-- {{title}} shorter form of {{renderingContext.elements["title"].value}} -->
-        {{title}}
-    </h4>
+    <!-- {{title}} shorter form of {{renderingContext.elements["title"].value}} -->
+    <h4 wchEditable="title">{{title}}</h4>
     <div class="article-medium-image">
         <img [src]="utilsService.getImageUrl(renderingContext, 'image', 'default')" width="480" height="360">
-        <p class="caption">{{summary}}</p>
+        <p wchEditable="summary" class="caption">{{summary}}</p>
     </div>
     <div class="article-body">
         <!-- {{body}} is shorter form of {{renderingContext.elements["body"].value}} -->

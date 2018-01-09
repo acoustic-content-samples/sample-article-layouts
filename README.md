@@ -32,17 +32,7 @@ The "content-artifacts" folder in this repository contains a set of authoring ar
 
 The "site-application-files" folder contains the web artifact sources used to build the angular components in the site SPA project, which will then be redeployed with the site to your WCH tenant.
 
-## Install the sample article layouts to your site application project and WCH tenant
-
-### Installation Option #1: Install in 1 step, directly from the git repository URL
-
-* Change the command line directory to the site application's root directory (i.e. wch-site-application). If you haven't already done so, perform all of the required installation steps for the WCH site application repository.
-* Using the Git URL to the sample-article-layouts repository, run this command to copy the needed sample site-application-files and update the layout settings for the new component.
-```
-npm run install-layouts-from-git git@github.com:ibm-wch/sample-article-layouts.git
-```
-
-### Installation Option #2: Clone the sample repository and install the artifacts and layouts from the local copy
+## Install and deploy the sample article layouts
 
 ### Obtain a local copy of this git repository
 
