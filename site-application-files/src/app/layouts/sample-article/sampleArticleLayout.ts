@@ -17,10 +17,10 @@
 
 import {
     LayoutComponent, RenderingContext, RenderingContextBinding
-} from 'ibm-wch-sdk-ng';
+} from '@ibm-wch-sdk/ng';
 import { Component } from '@angular/core';
 import { TypeSampleArticleComponent } from './../../components/sample-article/typeSampleArticleComponent';
-import { UtilsService } from '../../common/utils/utils.service';
+import { UtilsService } from '@ibm-wch/components-ng-shared-utilities';
 
 /**
  * @name sampleArticleLayout
