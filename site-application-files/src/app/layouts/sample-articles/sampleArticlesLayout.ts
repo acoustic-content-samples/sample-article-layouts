@@ -15,10 +15,10 @@
  *******************************************************************************/
 import {
     LayoutComponent, RenderingContext, RenderingContextBinding
-} from 'ibm-wch-sdk-ng';
+} from '@ibm-wch-sdk/ng';
 import {Component, OnDestroy, OnInit} from '@angular/core';
 import {Subscription} from "rxjs/Subscription";
-import {UtilsService} from "../../common/utils/utils.service";
+import {UtilsService} from "@ibm-wch/components-ng-shared-utilities";
 import {Constants} from "../../Constants";
 import { TypeSampleArticlesComponent } from './../../components/sample-articles/typeSampleArticlesComponent';
 
