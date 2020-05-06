@@ -3,22 +3,16 @@ Sample Article Site SPA Layouts
 
 ## Overview
 
-This repository provides a simple example of how to create one or more WCH Site layouts that work with the published "Sample Article" content from https://github.com/ibm-wch/sample-article-content.  This allows you to add Sample Article content items to a page or pages in the sample Watson Content Hub Oslo Single Page Application (SPA) based site.
+This repository provides a simple example of how to create one or more Acoustic Content (formerly Watson Content Hub or WCH) site layouts that work with the published "Sample Article" content from https://github.com/ibm-wch/sample-article-content.  This allows you to add Sample Article content items to a page or pages in the sample Watson Content Hub Oslo Single Page Application (SPA) based site.
 
 ## Prerequisites
 
  - Trial, Standard or higher tier Watson Content Hub tenant, with the out of the box Oslo Site SPA deployed
    (Note, the classes and styles used by this sample are provided by the Oslo stylesheets)
- - Node.js v6.11.1 or above:  https://developer.ibm.com/node/sdk/v6/
+ - Node.js v6.11.1 or above
  - wchtools 2.1.x or later installed and configured for the user's tenant:  https://github.com/ibm-wch/wchtools-cli
  - Latest wch-site-application source project: https://github.com/ibm-wch/wch-site-application
  - Push the Sample Article artifacts to your content hub tenant from and as described at:  https://github.com/ibm-wch/sample-article-content
-
-## Suggested reading
-
- - Read through the customizing the SPA documentation and try out the custom sample iframe layout first:  https://developer.ibm.com/customer-engagement/tutorials/customizing-layouts-components-for-your-site/
- - Read the Watson Content Hub Site Customization Programming Model documentation:  https://github.com/ibm-wch/wch-site-application/blob/master/doc/README-programming-model.md
- - Read and try the sample custom Site SPA layouts here: https://github.ibm.com/DX/sample-active-site-components
 
 ## Scenario
 
